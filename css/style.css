@@ -1181,9 +1181,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 /*--------------------------------------------------------------
-# Prizes Section
+# Prizes Section (NOT Used anymore and will be modified.
 --------------------------------------------------------------*/
-
+/*
 #prizes {
   background: #101522;
   background-size: cover;
@@ -1213,7 +1213,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 #prizes h3 {
   font-size: 18px;
   font-weight: bold;
-  /* text-transform: uppercase; */
   margin-bottom: 10px;
   color: #fff;
 }
@@ -1223,8 +1222,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 20px;
   color: #fff;
 }
-
-
+*/
 /*--------------------------------------------------------------
 # F.A.Q Section
 --------------------------------------------------------------*/
