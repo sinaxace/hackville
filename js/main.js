@@ -105,8 +105,8 @@ jQuery(document).ready(function ($) {
  * to fix that issue.
  * @param display takes a boolean argument to remove the inline style "display: none !important;" if it was set by Netlify... wtf (－‸ლ)
  */
-  var netlifyHack = (display) => {
-    console.log("Display = " + display);
+  function netlifyHack(display) {
+    console.log("Is there a display:none? " + display);
     if (display === true) {
       $('div[style="display: none !important;"]').attr("style", "");
     }
