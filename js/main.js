@@ -98,4 +98,18 @@ jQuery(document).ready(function ($) {
 
   }
 
+  netlifyHack($('div[style="display: none !important;"]').attr("style") == "display: none !important;"); //sends boolean argument to netlifyHack()
+
+  /**
+ * Netlify adds an inline style to the sponser-logo class div that completely hides it's child nodes. This is a quick hack 
+ * to fix that issue.
+ * @param display takes a boolean argument to remove the inline style "display: none !important;" if it was set by Netlify... wtf (－‸ლ)
+ */
+  var netlifyHack = (display) => {
+    console.log("Display = " + display);
+    if (display === true) {
+      $('div[style="display: none !important;"]').attr("style", "");
+    }
+  }
+
 });
